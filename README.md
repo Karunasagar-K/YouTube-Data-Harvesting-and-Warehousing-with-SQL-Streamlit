@@ -1,6 +1,5 @@
 # YouTube-Data-Harvesting-and-Warehousing-with-SQL-Streamlit
  Comprehensive data pipeline for YouTube data using Streamlit, MongoDB, and SQL.
-### YouTube Data Harvesting and Warehousing using SQL and Streamlit
 
 #### Overview
 This project provides a comprehensive solution for collecting, storing, and analyzing data from YouTube. The main components include scraping data from YouTube using the YouTube Data API, storing this data in MongoDB, migrating it to an SQL database, and querying it for analysis through a Streamlit application. This project is modular, maintainable, and portable, ensuring that it can be easily extended and deployed in different environments.
