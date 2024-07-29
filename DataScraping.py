@@ -10,16 +10,16 @@ from datetime import datetime
 
 
 # YouTube API 
-api_key = "AIzaSyB8uxwP3CzNNRsEUDOWIevedYspMC6TCvw"
+api_key = "API KEY"
 youtube = googleapiclient.discovery.build("youtube","v3", developerKey=api_key)
 
 # MongoDB setup
-client = MongoClient('mongodb://localhost:27017/')
-db = client['youtube_data'] # Select the Database
-collection = db['data'] # Select the collection
+client = MongoClient('CONNECTION')
+db = client['database'] # Select the Database
+collection = db['collection'] # Select the collection
 
 # Setup MySQL engine
-mysql_engine = create_engine('mysql+pymysql://root:karuna@localhost/mde88')
+mysql_engine = create_engine('mysql+pymysql://root:password@localhost/database')
 
 
 #Function to collect the channel details using channel_id
